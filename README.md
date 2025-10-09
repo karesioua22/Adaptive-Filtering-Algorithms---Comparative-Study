@@ -76,10 +76,3 @@ This change is successfully tracked by the **adaptive filters** (LMS, WLMS, RLS)
 In contrast, the **Wiener filter** produces a single optimal static solution and cannot adapt to temporal variations — hence it fails to model this change.
 
 ---
-
-## 📈 Results and Analysis
-
-- **LMS:** Stable but slower convergence. Tracks the time-varying system with a small lag.  
-- **WLMS:** Faster convergence and smoother weight adaptation due to windowed updates.  
-- **RLS:** Rapid convergence and precise tracking of coefficient changes, at the cost of higher complexity.  
-- **Wiener–Hopf:** Provides a static optimal solution for the stationary case but cannot adapt when the system changes.
