@@ -53,7 +53,7 @@ end
 % Calculate overall MSE across all iterations
 total_mse = mean(MSE_all, 1);
 
-% Plot weights changes with respect to iterations
+% Plot weights changes with respect to iterations .
 figure;
 for k = 1:p
     subplot(p, 1, k);
